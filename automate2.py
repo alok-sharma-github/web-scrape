@@ -92,8 +92,8 @@ def go_to_next_page(driver, max_scroll=5):
 
 # Main function
 def main():
-    email = 'kingofkingsaxox@proton.me'
-    password = 'Alok@123'
+    email = 'YOUR_EMAIL'
+    password = 'YOUR_PASSWORD'
     query = input("Enter the search query: ")
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
