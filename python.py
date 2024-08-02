@@ -86,8 +86,8 @@ def save_to_csv(data, filename='scraped_data.csv'):
 
 # Main function
 def main():
-    email = 'kingofkingsalok@gmail.com'  # Replace with your LinkedIn email
-    password = 'Alok@4641'  # Replace with your LinkedIn password
+    email = 'YOUR EMAIL'  # Replace with your LinkedIn email
+    password = 'YOUR_PSWD'  # Replace with your LinkedIn password
     hashtag = input("Enter the hashtag to search for: ").strip('#')
     
     # Set up the Chrome WebDriver
